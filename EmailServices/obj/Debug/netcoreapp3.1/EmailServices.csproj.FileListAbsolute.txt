@@ -1,0 +1,80 @@
+Q:\culture last\CultureProject\CultureProject\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.deps.json
+Q:\culture last\CultureProject\CultureProject\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.dll
+Q:\culture last\CultureProject\CultureProject\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.pdb
+Q:\culture last\CultureProject\CultureProject\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.AssemblyReference.cache
+Q:\culture last\CultureProject\CultureProject\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.GeneratedMSBuildEditorConfig.editorconfig
+Q:\culture last\CultureProject\CultureProject\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfoInputs.cache
+Q:\culture last\CultureProject\CultureProject\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfo.cs
+Q:\culture last\CultureProject\CultureProject\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.CoreCompileInputs.cache
+Q:\culture last\CultureProject\CultureProject\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.dll
+Q:\culture last\CultureProject\CultureProject\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.pdb
+D:\Work Folder\Sadoka\SadokaProject\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.deps.json
+D:\Work Folder\Sadoka\SadokaProject\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.dll
+D:\Work Folder\Sadoka\SadokaProject\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.pdb
+D:\Work Folder\Sadoka\SadokaProject\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.AssemblyReference.cache
+D:\Work Folder\Sadoka\SadokaProject\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work Folder\Sadoka\SadokaProject\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfoInputs.cache
+D:\Work Folder\Sadoka\SadokaProject\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfo.cs
+D:\Work Folder\Sadoka\SadokaProject\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.CoreCompileInputs.cache
+D:\Work Folder\Sadoka\SadokaProject\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.dll
+D:\Work Folder\Sadoka\SadokaProject\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.pdb
+D:\Work Folder\Sadoka2\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.deps.json
+D:\Work Folder\Sadoka2\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.dll
+D:\Work Folder\Sadoka2\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.pdb
+D:\Work Folder\Sadoka2\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.AssemblyReference.cache
+D:\Work Folder\Sadoka2\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work Folder\Sadoka2\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfoInputs.cache
+D:\Work Folder\Sadoka2\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfo.cs
+D:\Work Folder\Sadoka2\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.CoreCompileInputs.cache
+D:\Work Folder\Sadoka2\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.dll
+D:\Work Folder\Sadoka2\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.pdb
+D:\Work Folder\Sadoka 3\Project\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.deps.json
+D:\Work Folder\Sadoka 3\Project\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.dll
+D:\Work Folder\Sadoka 3\Project\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.pdb
+D:\Work Folder\Sadoka 3\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.AssemblyReference.cache
+D:\Work Folder\Sadoka 3\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work Folder\Sadoka 3\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfoInputs.cache
+D:\Work Folder\Sadoka 3\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfo.cs
+D:\Work Folder\Sadoka 3\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.CoreCompileInputs.cache
+D:\Work Folder\Sadoka 3\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.dll
+D:\Work Folder\Sadoka 3\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.pdb
+D:\Work Folder\Sadoka 4\Project\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.deps.json
+D:\Work Folder\Sadoka 4\Project\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.dll
+D:\Work Folder\Sadoka 4\Project\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.pdb
+D:\Work Folder\Sadoka 4\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.AssemblyReference.cache
+D:\Work Folder\Sadoka 4\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work Folder\Sadoka 4\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfoInputs.cache
+D:\Work Folder\Sadoka 4\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfo.cs
+D:\Work Folder\Sadoka 4\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.CoreCompileInputs.cache
+D:\Work Folder\Sadoka 4\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.dll
+D:\Work Folder\Sadoka 4\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.pdb
+D:\Work Folder\Projects\Eibtek\Project\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.deps.json
+D:\Work Folder\Projects\Eibtek\Project\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.dll
+D:\Work Folder\Projects\Eibtek\Project\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.pdb
+D:\Work Folder\Projects\Eibtek\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.AssemblyReference.cache
+D:\Work Folder\Projects\Eibtek\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work Folder\Projects\Eibtek\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfoInputs.cache
+D:\Work Folder\Projects\Eibtek\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfo.cs
+D:\Work Folder\Projects\Eibtek\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.CoreCompileInputs.cache
+D:\Work Folder\Projects\Eibtek\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.dll
+D:\Work Folder\Projects\Eibtek\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.pdb
+D:\Work Folder\Projects\Mtao\Project\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.deps.json
+D:\Work Folder\Projects\Mtao\Project\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.dll
+D:\Work Folder\Projects\Mtao\Project\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.pdb
+D:\Work Folder\Projects\Mtao\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.AssemblyReference.cache
+D:\Work Folder\Projects\Mtao\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work Folder\Projects\Mtao\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfoInputs.cache
+D:\Work Folder\Projects\Mtao\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfo.cs
+D:\Work Folder\Projects\Mtao\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.CoreCompileInputs.cache
+D:\Work Folder\Projects\Mtao\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.dll
+D:\Work Folder\Projects\Mtao\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.pdb
+D:\Work Folder\Projects\Pharmacy\Project\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.deps.json
+D:\Work Folder\Projects\Pharmacy\Project\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.dll
+D:\Work Folder\Projects\Pharmacy\Project\EmailServices\bin\Debug\netcoreapp3.1\EmailServices.pdb
+D:\Work Folder\Projects\Pharmacy\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.AssemblyReference.cache
+D:\Work Folder\Projects\Pharmacy\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work Folder\Projects\Pharmacy\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfoInputs.cache
+D:\Work Folder\Projects\Pharmacy\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.AssemblyInfo.cs
+D:\Work Folder\Projects\Pharmacy\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.csproj.CoreCompileInputs.cache
+D:\Work Folder\Projects\Pharmacy\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.dll
+D:\Work Folder\Projects\Pharmacy\Project\EmailServices\obj\Debug\netcoreapp3.1\EmailServices.pdb

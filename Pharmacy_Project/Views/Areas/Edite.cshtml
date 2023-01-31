@@ -1,0 +1,49 @@
+﻿@model AreasVM;
+
+@{
+    ViewData["Title"] = "Edite";
+}
+
+
+<!-- Basic Vertical form layout section start -->
+<section id="basic-vertical-layouts">
+    <div class="row match-height">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">تعديل بيانات المنطقه </h4>
+            </div>
+            <div class="card-content">
+                <div class="card-body">
+                    <form class="form form-vertical" asp-action="Edite" asp-controller="Areas" enctype="multipart/form-data">
+                        <div class="form-body">
+                            <div class="row">
+
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical"> اسم المنطقه</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Area_Name" placeholder="اسم المنطقه ">
+                                    </div>
+                                </div>
+                                <label>المدينه</label>
+                                <select asp-for="CityId" class="form-control" asp-items="(SelectList)ViewBag.CitiesList">
+                                </select>
+                                <span asp-validation-for="CityId" class="text-danger"></span>
+                                <br /><br /><br />
+
+
+
+
+                                <center>
+                                    <input type="submit" value="حذف" class="btn btn-danger" />
+                                    <a asp-controller="Areas" asp-action="Index" class="btn btn-info">العودة</a>
+                                </center>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</section>
+
+

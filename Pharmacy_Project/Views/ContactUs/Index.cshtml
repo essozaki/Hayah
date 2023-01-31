@@ -1,0 +1,102 @@
+﻿@model IEnumerable<ContactUsVM>;
+@{
+    ViewData["Title"] = "Index";
+}
+<!-- Scroll - horizontal and vertical table -->
+<section id="horizontal-vertical">
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title"> </h4>
+                </div>
+                <div class="card-content">
+                    <div class="card-body card-dashboard">
+                        <div class="table-responsive">
+                            <table class="table nowrap scroll-horizontal-vertical">
+                                <thead>
+                                    <tr>
+                                        <th> بيانات التواصل</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        
+                            
+
+                                    <tr>
+                                        <td> رقم التليفون</td>
+                                        <td>@item.Phone </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td> البريد الالكتروني</td>
+                                        <td>@item.Email </td>
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td> العنوان</td>
+                                        <td>@item.Address </td>
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td>  رابط الفيسبوك</td>
+                                        <td><a href="@item.Facebook_Link"> Link</a></td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>  رابط اليوتيوب</td>
+                                        <td><a href="@item.Youtube_Link"> Link</a></td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td> رابط الانستجرام</td>
+                                        <td><a href="@item.Insta_Link"> Link</a></td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>  رابط الموقع الالكتروني </td>
+                                        <td><a href="@item.Website_Link"> Link</a></td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td> رابط الواتساب</td>
+                                        <td><a href="@item.Whatsapp_Link"> Link</a></td>
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td> رابط الموقع</td>
+                                             <td>
+                                            <iframe src="@item.Location_Link" width="50px" height="50px" style="border:0;" allowfullscreen="" loading="lazy"
+                                             referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            
+                                            </td>                                    </tr>
+                                        <center>
+                                            <a asp-controller="ContactUs" asp-action="Edite" class="btn btn-info">التعديل</a>
+                                        </center>
+                                    }
+
+                                </tbody>
+                            </table>
+
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ Scroll - horizontal and vertical table -->

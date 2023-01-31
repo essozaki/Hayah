@@ -1,0 +1,53 @@
+﻿@model IEnumerable<ComplainsVM>;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Scroll - horizontal and vertical table -->
+<section id="horizontal-vertical">
+ 
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">عرض الشكاوي </h4>
+                </div>
+                <div class="card-content">
+                    <div class="card-body card-dashboard">
+                        <div class="table-responsive">
+                            <table class="table nowrap scroll-horizontal-vertical">
+                                <thead>
+                                    <tr>
+                                        <th>تفاصيل الشكوي </th>
+
+
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@item.Deails</td>
+                                            <td class="product-action">
+                                                <a asp-action="Edite" asp-controller="Complains" asp-route-id="@item.Id">
+                                                    <span class="action-edit"><i class="feather icon-edit"></i></span>
+                                                </a>
+                                                <a asp-action="Delete" asp-controller="Complains" asp-route-id="@item.Id">
+                                                    <span class="action-delete"><i class="feather icon-trash"></i></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ Scroll - horizontal and vertical table -->

@@ -1,0 +1,164 @@
+﻿@model XraysVM;
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<!-- Basic Vertical form layout section start -->
+<section id="basic-vertical-layouts">
+    <div class="row match-height">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">اضافه مركز أشعه جديد</h4>
+            </div>
+            <div class="card-content">
+                <div class="card-body">
+                    <form class="form form-vertical" asp-action="Create" asp-controller="Xrays" enctype="multipart/form-data">
+                        <div class="form-body">
+                            <div class="row">
+
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical"> اسم المركز  </label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Xray_Name" placeholder="اسم المركز   ">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical"> تفاصيل المركز  </label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Xray_Descriprion" placeholder="تفاصيل المركز   ">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical"> رقم هاتف المركز  </label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Xray_Phone" placeholder="رقم هاتف المركز   ">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical"> رابط المركز  </label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Xray_LInk" placeholder="رابط المركز   ">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical"> رابط الفيسبوك</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Xray_FacebookLInk" placeholder="رابط الفيسبوك ">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical"> رابط اليوتيوب</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Xray_YoutubeLInk" placeholder="رابط اليوتيوب ">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical"> رابط الانستجرام</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Xray_InstaLInk" placeholder="رابط الانستجرام ">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical"> رابط الواتساب </label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Xray_WhatsappLInk" placeholder="رابط الواتساب ">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical"> رابط موقع المركز  </label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Xray_LocationLInk" placeholder="رابط موقع المركز   ">
+                                    </div>
+                                </div>
+
+
+
+
+
+                                <label>المدينه</label>
+                                <select id="Citylist" class="form-control" asp-items="(SelectList)ViewBag.CitiesList">
+                                    <option> اختار المدينه </option>
+                                </select>
+                                <br /><br /><br />
+
+
+
+                                <label>المنطقه</label>
+                                <select asp-for="Area_Id" class="form-control">
+                                    <option> اختار المدينه </option>
+                                </select>
+                                <br /><br /><br />
+
+                                <div class="col-lg-6 col-md-12">
+                                    <fieldset class="form-group">
+                                        <label for="basicInputFile">صورة المركز  </label>
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input" asp-for="Photo" id="inputGroupFile01">
+                                            <label class="custom-file-label">Choose file</label>
+                                        </div>
+                                    </fieldset>
+                                </div>
+
+
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary mr-1 mb-1">حفظ</button>
+                                    <button type="reset" class="btn btn-outline-warning mr-1 mb-1">الغاء</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+
+@section MicrosoftValidation{
+    <script src="../../../app-assets/vendors/js/area.js"></script>
+
+
+    <script>
+        $(function () {
+
+            $("#Citylist").change(function () {
+
+
+                $("#Area_Id").empty();
+                $("#Area_Id").append("<option>اختار المنطقه</option>");
+
+
+                var CityId = $("#Citylist option:selected").val();
+
+
+                $.ajax({
+                    type: "Post",
+                    url: @Url.Action("GetAreaDataByCityId"),
+                    dataType: "json",
+                    data: { cityId: CityId },
+
+                    success: function (areas) {
+                        $.each(areas, function (i, area) {
+
+                            $("#Area_Id").append("<option value='" + area.value + "'>" + area.text + "</option>");
+
+                        });
+                    }
+                });
+            });
+
+        });
+    </script>
+
+
+
+}
+
+
+
+

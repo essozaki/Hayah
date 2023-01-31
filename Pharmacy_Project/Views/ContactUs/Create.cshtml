@@ -1,0 +1,95 @@
+﻿@model ContactUsVM;
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Basic Vertical form layout section start -->
+<section id="basic-vertical-layouts">
+    <div class="row match-height">
+            <div class="card">
+@*                <div class="card-header">
+                    <h4 class="card-title">Create</h4>
+                </div>*@
+                <div class="card-content">
+                    <div class="card-body">
+                    <form class="form form-vertical" asp-action="Create" asp-controller="ContactUs" enctype="multipart/form-data">
+                            <div class="form-body">
+                                <div class="row">
+
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                        <label for="first-name-vertical"> رابط الموقع(google maps)</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Location_Link" placeholder=" رابط الموقع">
+                                        </div>
+                                    </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical">العنوان</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Address" placeholder="Facebook Link">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                        <div class="form-group">
+                                        <label for="first-name-vertical"> رابط الموقع الالكتروني</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Website_Link" placeholder=" رابط الموقع الالكتروني">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                        <label for="first-name-vertical"> رابط الفيسبوك</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Facebook_Link" placeholder=" رابط الفيسبوك">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                        <label for="first-name-vertical"> رابط اليوتيوب</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Youtube_Link" placeholder=" رابط اليوتيوب">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                        <label for="first-name-vertical"> رابط الانستجرام</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Insta_Link" placeholder=" رابط الانستجرام">
+                                        </div>
+                                    </div>
+                        
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                        <label for="first-name-vertical"> رابط الواتساب</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Whatsapp_Link" placeholder=" رابط الواتساب">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                        <label for="first-name-vertical"> رقم الهاتف</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Phone" placeholder=" رقم الهاتف">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                        <label for="first-name-vertical"> البريد الالكتروني</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Email" placeholder=" البريد الالكتروني">
+                                        </div>
+                                    </div>
+
+
+                         
+
+
+                      
+
+
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary mr-1 mb-1">Submit</button>
+                                        <button type="reset" class="btn btn-outline-warning mr-1 mb-1">Reset</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+</section>
+<!-- // Basic Vertical form layout section end -->

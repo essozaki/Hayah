@@ -1,0 +1,58 @@
+﻿@model CitiesVM
+@{
+    ViewData["Title"] = "Index";
+}
+<!-- Scroll - horizontal and vertical table -->
+<section id="horizontal-vertical">
+    <div class="dt-buttons btn-group">
+       
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title"> </h4>
+                </div>
+                <div class="card-content">
+                    <div class="card-body card-dashboard">
+                        <div class="table-responsive">
+                            <form asp-controller="Cities" asp-action="Delete" class="form-group ">
+
+                                <table class="table nowrap scroll-horizontal-vertical">
+                                    <thead>
+                                        <tr>
+                                            <th> حذف المدينه </th>
+                                        </tr>
+
+
+
+                                    </thead>
+                                    <tbody>
+
+                                
+                                     
+                                        <tr>
+                                            <td>المدينه </td>
+                                            <td>@Model.Cite_Name </td>
+                                        </tr>
+
+                                     
+
+
+                                    </tbody>
+
+                                </table>
+
+                                <center>
+                                    <input type="submit" value="حذف" class="btn btn-danger" />
+                                    <a asp-controller="Cities" asp-action="Index" class="btn btn-info">العودة</a>
+                                </center>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ Scroll - horizontal and vertical table -->

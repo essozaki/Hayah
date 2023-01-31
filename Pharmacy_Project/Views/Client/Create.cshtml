@@ -1,0 +1,182 @@
+﻿@model ClientVM;
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<!-- Basic Vertical form layout section start -->
+<section id="basic-vertical-layouts">
+    <div class="row match-height">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">اضافه عميل جديد</h4>
+            </div>
+            <div class="card-content">
+                <div class="card-body">
+                    <form class="form form-vertical" asp-action="Create" asp-controller="Client" enctype="multipart/form-data">
+                        <div class="form-body">
+                            <div class="row">
+
+                               
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical"> الكود</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Code" placeholder="الكود ">
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical">الاسم </label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Name" placeholder=" الاسم">
+                                    </div>
+                                </div>
+                                
+
+
+
+
+                                  <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical">الزوجه الاولي </label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="FirstWife" placeholder=" الزوجه الاولي (ان وجدت)">
+                                    </div>
+                                </div>
+                                
+                                  <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical">الزوجه الثانيه </label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="SecendWife" placeholder=" الزوجه الثانيه (ان وجدت)">
+                                    </div>
+                                </div>
+                                
+                                  <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical">الزوجه الثالثه </label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="ThirdWife" placeholder=" الزوجه الثالثه (ان وجدت)">
+                                    </div>
+                                </div>
+                                
+                                  <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical">الزوجه الرابعه </label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="FourthWife" placeholder=" الزوجه الرابعه (ان وجدت)">
+                                    </div>
+                                </div>
+                                
+
+
+
+
+
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical">الجد</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="GrandFatherName" placeholder="الجد ">
+                                    </div>
+                                </div>
+                                
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical">الجده</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="GrandMotherName" placeholder=" الجده">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical">بدايه الاشتراك</label>
+                                        <input type="date" id="first-name-vertical" class="form-control" asp-for="StartDate">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical">نهايه الاشتراك</label>
+                                        <input type="date" id="first-name-vertical" class="form-control" asp-for="EndDate">
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical">القسم</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Department" placeholder="القسم ">
+                                    </div>
+                                </div>
+                                
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical">مسؤول التعامل</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="DealOfficer" placeholder="مسؤول التعامل ">
+                                    </div>
+                                </div>
+                                
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical">المنطقه</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Region" placeholder=" المنطقه">
+                                    </div>
+                                </div>
+                                
+
+
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="first-name-vertical">رقم التليفون</label>
+                                        <input type="text" id="first-name-vertical" class="form-control" asp-for="Phone" placeholder="رقم التليفون ">
+                                    </div>
+                                </div>
+
+                                <p class="mb-2">الملاحظات</p>
+                                <div class="col-12">
+                                    <fieldset class="form-label-group">
+                                        <textarea class="form-control" id="label-textarea" rows="3" asp-for="Notes" placeholder="الملاحظات"></textarea>
+@*                                        <label for="label-textarea">Label in Textarea</label>
+*@                                    </fieldset>
+                                </div>
+
+
+                                <p class="mb-2">تقرير الحاله</p>
+                                <div class="col-12">
+                                    <fieldset class="form-label-group">
+                                        <textarea class="form-control" id="label-textarea" rows="3" asp-for="ClientReport" placeholder="تقرير الحاله"></textarea>
+                                    </fieldset>
+                                </div>
+
+
+                                <p class="mb-2">خطه العمل</p>
+                                <div class="col-12">
+                                    <fieldset class="form-label-group">
+                                        <textarea class="form-control" id="label-textarea" rows="3" asp-for="WorkPlan" placeholder="خطه الحاله"></textarea>
+                                 
+                                    </fieldset>
+                                </div>
+
+
+                                <p class="mb-2">الادويه المتداوله</p>
+                                <div class="col-12">
+                                    <fieldset class="form-label-group">
+                                        <textarea class="form-control" id="label-textarea" rows="3" asp-for="Medicense" placeholder="الادويه المتداوله"></textarea>
+                                    </fieldset>
+                                </div>
+
+
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary mr-1 mb-1">حفظ</button>
+                                    <button type="reset" class="btn btn-outline-warning mr-1 mb-1">الغاء</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</section>
+
+
